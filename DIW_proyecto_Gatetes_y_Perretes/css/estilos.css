@@ -323,7 +323,6 @@ footer .legal-links li {
 
 .page-join main {
     padding-top: 140px;
-    /* deja espacio al header fijo */
     padding-bottom: 60px;
 }
 
@@ -375,12 +374,9 @@ footer .legal-links li {
 
 .page-join .form-input:focus {
     border-color: var(--input-color);
-    /* azul principal */
     box-shadow:
         0 0 0 2px var(--input-color),
-        /* línea azul fina */
         0 0 0 4px var(--secondary-color);
-    /* glow azul claro */
     outline: none;
 }
 
